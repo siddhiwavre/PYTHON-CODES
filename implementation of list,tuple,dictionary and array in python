@@ -1,0 +1,63 @@
+#implementation of list
+l=[4,1,6,9,2,1,9]
+print l
+print "first element is",l[0]
+print "last element is",l[-1]
+l.append(7)
+print "appended list is",l
+l.sort()
+print "sorted list is",l
+l.sort(reverse=True)
+print "reverse sorted list is",l
+l.reverse()
+print "reversed list is",l
+print "count of 9 is :",l.count(1)
+print "index of 9 is:",l.index(9)
+print "maximum value is:",max(l)
+print "minimum value is:",min(l)
+l.remove(1)#removes the element 1
+print "new list is",l
+#implementation of tuple
+l2=(3,4,8,3,5,6)
+print "tuple:",l2
+print "first element of tuple is:",l2[0]
+print "last element of tuple is:",l2[-1]
+a=sorted(l2)
+print "sorted tuple",a
+c=sorted(l2,reverse=True)#sorting in descending order
+print "reverse sorted",c
+print "max",max(l2)
+print "min",min(l2)
+print l2.index(4)
+l2.append(7)
+#implementation of dictionary
+d={0:7,2:6,1:8,4:7}
+print d
+print d.keys()
+print d.values()
+print d.items()
+d.update({3:10})
+print d
+#implementation of array
+a=[4,9,2,8,3,2,1]
+print "array is",a
+a.append(7)
+print "appended array is",a
+a.extend([5])
+print "extended array is",a
+a.insert(3,6)
+print "inserted array",a
+a.remove(1)
+print "after deletion",a
+a.pop(2)
+print a
+print "index of 9",a.index(9)
+print "count of 2",a.count(2)
+a.sort()
+print a
+a.reverse()
+print "revered array",a
+m=[[3,2,6],[5,8,1]]
+print "multidimensional array",m
+print m[1:]
+
