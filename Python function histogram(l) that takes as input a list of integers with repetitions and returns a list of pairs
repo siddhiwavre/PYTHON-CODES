@@ -1,0 +1,4 @@
+def  histogram(l):
+  l1=[(x,l.count(x)) for x in set(l)]
+  l2=sorted(l1, key=lambda x: (x[1],x[0]) )
+  return l2
