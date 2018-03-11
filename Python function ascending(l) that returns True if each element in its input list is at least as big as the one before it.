@@ -1,0 +1,9 @@
+def ascending(l):
+  c=[]
+  for x in l:
+    c.append(x)
+  l.sort()
+  if l!=c:
+    return False
+  elif l==c:
+    return True
