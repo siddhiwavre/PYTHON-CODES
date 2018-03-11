@@ -1,0 +1,13 @@
+s=input("enter a string")
+def wellbracketed(s):
+  depth=0
+  for i in s:
+   if i=="(":
+    depth+=1
+   elif i==")":
+    depth-=1
+  if (depth==0):
+    print ("True")
+  else:
+    print ("False")
+wellbracketed(s)
