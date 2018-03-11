@@ -1,0 +1,12 @@
+def alternating(l):
+    for i in range(len(l)-2):
+        if (l[i] < l[i+1]) and (l[i+1] < l[i+2]):
+            return False
+            return 0
+        if (l[i] > l[i+1]) and (l[i+1] > l[i+2]):
+            return False
+            return 0
+        if (l[i] == l[i+1]) or (l[i+1] == l[i+2]):
+           return False
+           return 0
+    return True
