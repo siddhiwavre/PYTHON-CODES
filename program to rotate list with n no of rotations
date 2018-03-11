@@ -1,0 +1,7 @@
+def rotatelist(l,k):
+  while k!=0:
+   temp=l[-1]
+   l.pop()
+   l=[temp]+l
+   k-=1
+  print (l)
